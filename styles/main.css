@@ -1,0 +1,42 @@
+html {
+    font-family: 'Robot',sans-serif;
+}
+
+/* body{
+    background: # ;
+} */
+
+/* BOX MODEL
+modelo de caixa tem 
+largura, altura, espaçamento, preenchimentos
+bordas, cor, fundo, maneira que é vista pelo html (display)
+alinhamentos, posicionamento
+*/
+
+#page-home{
+    height: 100vh;
+
+    background: url('../assets/home-background.svg') no-repeat;
+
+
+
+   /* background-position: 35vw bottom;     CONTINUAÇÃO!!    1:10 de vídeo.       */  
+
+
+
+
+}
+
+#page-home .content{
+    width:90%;
+    max-width: 1100px;
+
+    margin: 0 auto;
+}
+
+#page-home .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
