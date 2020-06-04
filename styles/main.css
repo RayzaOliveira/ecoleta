@@ -7,6 +7,7 @@
 *{                            /* referencia todos os elementos */
      margin: 0;
      padding: 0;
+     box-sizing: border-box;   /* impedir o aumento da caixa */
 }
 
 html {
