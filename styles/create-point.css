@@ -31,7 +31,7 @@
     width: 20px;
     height: 24px;
 }
-
+   
 form{
     background-color: white;
     
@@ -44,6 +44,62 @@ form{
     max-width: 730px;
 
     /* box-sizing: border-box;     impedir o aumento da caixa */
+}
 
+form h1 {
+    font-size: 36px;
+}
 
+form fieldset {
+    margin-top: 64px;
+
+    border: 0;
+}
+
+form legend{
+    margin-bottom: 40px;
+ 
+}
+form h2 {
+    font-size: 24px;
+}
+
+form .field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 24px;
+}
+
+form .field-group {
+    display: flex;
+}
+
+form input, form select {
+    background-color: #f0f0f5;
+
+    border: 0;
+    padding: 16px 24px;
+    font-size: 16px;
+
+    border-radius: 8px;
+
+    /* outline: none; */
+
+}
+
+form select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+form label{
+    font-size: 14;
+    margin-bottom: 8px;
+}
+
+form .field-group .field + .field{
+    margin-left: 24px;
 }
