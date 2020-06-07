@@ -118,4 +118,11 @@ form button{
     border:0;
 
     margin-top: 40px;
+
+    transition: background-color 400ms; 
+
+}
+
+form button:hover{
+    background-color: #2fb86e;
 }
