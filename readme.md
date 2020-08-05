@@ -1,3 +1,5 @@
+<h1 style="color:green" align="center">Ecoleta ♻</h1>  
+
 ![Main](https://github.com/vitorrios1001/ecoleta/blob/master//doc/images/screen-main.png?raw=true)
 
 <p align="center">
@@ -12,7 +14,6 @@
 O sistema <b>Ecoleta</b>, consiste em conectar pessoas à empresas que necessitam descartar resíduos com certas especificidades, como por exemplo: lâmpadas, papelão, resíduos orgânicos, entre outros. Para esse fim foi desenvolvida uma aplicação web, que possibilita a entidade cadastrar seu ponto de coleta e quais os tipos de resíduos disponíveis para a coleta.
 
 </p>
-
 
 ---
 
